@@ -1,0 +1,36 @@
+body{
+    background-color:whitesmoke;
+}
+.container{
+    
+    margin-top: 100px; 
+    margin-left:35% ;
+    background-color: blanchedalmond;
+    width: 330px;
+    padding: 10px; 
+    padding-left: 20px;
+}
+ input{
+    border: solid 1.5px grey;
+    padding: 7px;
+    width: 300px;
+}
+div,option,select{
+    color:brown;
+}
+#submit{
+    border-radius: 10px;
+    margin-left: 38%;
+    border:solid 1px grey;
+
+    
+}
+button:hover{
+    background-color: rgb(48, 50, 48);
+    color: wheat;
+
+}
+#rad{
+    margin-left:-120px
+}
+/* if(document.getElementById('summer').checked == true) {    */

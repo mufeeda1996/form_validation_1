@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Registration form</h3>
+      <form action=""  id="form" name="sign_up_form">
+          <div>User name
+          <input type="text" id="user_name"  placeholder="first name"/>
+         </div>
+          <div id="error"></div><br>
+          <div> Last name
+          <input type="text" id="user_2name" placeholder="last name" />
+         </div>
+         <div id="error2" ></div>
+         <br>
+         <div>phone
+             <input type="number" name="phone" id="phone" placeholder="enter your phone number">
+         </div>
+         <br>
+         <div id="error3"></div>
+         <div>choose couse
+        <select id="course">
+          <option value="">please select course</option>
+          <option value="Course">Course</option>
+          <option value="BCA">BCA</option>
+          <option value="BBA">BBA</option>
+        </select>
+       </div><br><div id="error4"></div>
+        <div class="input_control">
+          <div>Gender:</div><br>
+          <div>Male
+          <input type="radio" id="rad" name="gender" value="male"></div>
+          <div>female
+         <input type="radio" id="rad" name="gender" style="margin-left: -130px;"></div>
+         <div>other
+             <input type="radio" id="rad" name="gender"></div><br>
+             <div id="error5"></div>
+         </div> 
+         <br>
+    <div>hobbies
+    <input type="checkbox" id="id1" name="reading" value="books">
+    <label for="vehicle1"> Reading</label><br>
+    <input type="checkbox" id="id2" name="dancing" value="kathak">
+    <label for="vehicle2"> dancing</label><br>
+    <input type="checkbox" id="id3" name="singing" value="classic">
+    <label for="vehicle3"> singing</label><br><br>
+    </div><div id="error6"></div>
+        <div class="input_control">
+         <!-- <button id="btn">submit</button> -->
+         <input type="button" onclick="validate_form()" value="submit">
+        </div>
+        <p class="pclass" id="validation" style="display: none">validation</p>
+      </form>
+    </div>
+    <script src="forms.js">
+    </script>
+  </body>
+</html>
